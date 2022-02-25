@@ -1,0 +1,9 @@
+name: 'Gradle version'
+description: Capture the version number
+inputs:
+  filename:
+    description: Provide the Gradle file name which has Gradle filename
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
